@@ -3,6 +3,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {
       darkBlue: 'hsl(217, 28%, 15%)',
       darkBlue1: 'hsl(218, 28%, 13%)',
       darkBlue2: 'hsl(216, 53%, 9%)',
@@ -21,6 +22,7 @@ module.exports = {
       'curvy-dark-mode': "url('../images/bg-curvy-dark-mode.svg')",
       'curvy-light-mode': "url('../images/bg-curvy-light-mode.svg')",
     })
+    }
   },
   variants: {
     extend: {
